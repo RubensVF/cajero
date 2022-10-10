@@ -59,18 +59,17 @@ git checkout QA
 
 git merege develop
 
-git add .
-
-git commit -m "Cambio en QA" 
-
 git checkout master
 
 git merege QA
 
-git add .
 
-git commit -m "Cambio en master" 
+```
 
+## Borrar rama QA
 
+```
+
+git branch --delete QA
 
 ```
