@@ -32,3 +32,45 @@ git remote add origin https://github.com/RubensVF/cajero.git
 git push -u origin master
 
 ```
+
+## Crear ramas QA y develop
+
+```
+git checkout -b QA
+
+git checkout master
+
+git checkout -b develop
+
+git checkout master
+
+```
+
+## Añadir cambio 
+
+```
+git checkout develop
+
+git add .
+
+git commit -m "Cambio en develop" 
+
+git checkout QA
+
+git merege develop
+
+git add .
+
+git commit -m "Cambio en QA" 
+
+git checkout master
+
+git merege QA
+
+git add .
+
+git commit -m "Cambio en master" 
+
+
+
+```

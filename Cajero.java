@@ -132,3 +132,5 @@ class Cajero{
         }
     }
 }
+
+// Se añade comentario para hacer merge
